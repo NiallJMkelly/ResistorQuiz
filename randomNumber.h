@@ -26,7 +26,8 @@ class RandomNumberGenerator{
 
         for (int i = 0; i < multiplierBand; i++)   // easier in my head to do a for loop after getting a multiplier value between 1 and 6
         {
-            value *= 10;
+            //value *= 10; // some change
+            value = value * 10;
         }
 
         return value;
