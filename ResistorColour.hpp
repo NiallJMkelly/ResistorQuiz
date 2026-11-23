@@ -11,4 +11,4 @@ public:
  //return string for answer.
    return colours.at(band);
   }
-};
+}; ////This coukd prob all be a function
